@@ -40,10 +40,10 @@ from tqdm import tqdm
 # ═══════════════════════════════════════════════════════════════════
 
 DATA_DIR    = "/content/drive/MyDrive/dataset"   # parent folder containing front/back/left/right
-OUTPUT_DIR  = "/content/drive/MyDrive/dataset_output"        # where samples and checkpoints are saved
+OUTPUT_DIR  = "/content/drive/MyDrive/dataset_output_v4"        # where samples and checkpoints are saved
 
 # Training
-NUM_EPOCHS  = 300          # more epochs — WGAN-GP trains stably for longer
+NUM_EPOCHS  = 400          # more epochs — WGAN-GP trains stably for longer
 BATCH_SIZE  = 64
 LR_G        = 0.0001       # WGAN-GP paper recommends 1e-4
 LR_D        = 0.0001
