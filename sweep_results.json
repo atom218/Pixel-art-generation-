@@ -1,0 +1,110 @@
+[
+  {
+    "run": "run_01_lr0.0002_bs32_nd100",
+    "fid": Infinity,
+    "error": "Given groups=1, weight of size [64, 5, 4, 4], expected input[32, 4, 64, 64] to have 5 channels, but got 4 channels instead",
+    "lr": 0.0002,
+    "batch_size": 32,
+    "noise_dim": 100,
+    "rank": 1
+  },
+  {
+    "run": "run_02_lr0.0002_bs32_nd200",
+    "fid": Infinity,
+    "error": "Given groups=1, weight of size [64, 5, 4, 4], expected input[32, 4, 64, 64] to have 5 channels, but got 4 channels instead",
+    "lr": 0.0002,
+    "batch_size": 32,
+    "noise_dim": 200,
+    "rank": 2
+  },
+  {
+    "run": "run_03_lr0.0002_bs64_nd100",
+    "fid": Infinity,
+    "error": "Given groups=1, weight of size [64, 5, 4, 4], expected input[64, 4, 64, 64] to have 5 channels, but got 4 channels instead",
+    "lr": 0.0002,
+    "batch_size": 64,
+    "noise_dim": 100,
+    "rank": 3
+  },
+  {
+    "run": "run_04_lr0.0002_bs64_nd200",
+    "fid": Infinity,
+    "error": "Given groups=1, weight of size [64, 5, 4, 4], expected input[64, 4, 64, 64] to have 5 channels, but got 4 channels instead",
+    "lr": 0.0002,
+    "batch_size": 64,
+    "noise_dim": 200,
+    "rank": 4
+  },
+  {
+    "run": "run_05_lr0.0001_bs32_nd100",
+    "fid": Infinity,
+    "error": "Given groups=1, weight of size [64, 5, 4, 4], expected input[32, 4, 64, 64] to have 5 channels, but got 4 channels instead",
+    "lr": 0.0001,
+    "batch_size": 32,
+    "noise_dim": 100,
+    "rank": 5
+  },
+  {
+    "run": "run_06_lr0.0001_bs32_nd200",
+    "fid": Infinity,
+    "error": "Given groups=1, weight of size [64, 5, 4, 4], expected input[32, 4, 64, 64] to have 5 channels, but got 4 channels instead",
+    "lr": 0.0001,
+    "batch_size": 32,
+    "noise_dim": 200,
+    "rank": 6
+  },
+  {
+    "run": "run_07_lr0.0001_bs64_nd100",
+    "fid": Infinity,
+    "error": "Given groups=1, weight of size [64, 5, 4, 4], expected input[64, 4, 64, 64] to have 5 channels, but got 4 channels instead",
+    "lr": 0.0001,
+    "batch_size": 64,
+    "noise_dim": 100,
+    "rank": 7
+  },
+  {
+    "run": "run_08_lr0.0001_bs64_nd200",
+    "fid": Infinity,
+    "error": "Given groups=1, weight of size [64, 5, 4, 4], expected input[64, 4, 64, 64] to have 5 channels, but got 4 channels instead",
+    "lr": 0.0001,
+    "batch_size": 64,
+    "noise_dim": 200,
+    "rank": 8
+  },
+  {
+    "run": "run_09_lr5e-05_bs32_nd100",
+    "fid": Infinity,
+    "error": "Given groups=1, weight of size [64, 5, 4, 4], expected input[32, 4, 64, 64] to have 5 channels, but got 4 channels instead",
+    "lr": 5e-05,
+    "batch_size": 32,
+    "noise_dim": 100,
+    "rank": 9
+  },
+  {
+    "run": "run_10_lr5e-05_bs32_nd200",
+    "fid": Infinity,
+    "error": "Given groups=1, weight of size [64, 5, 4, 4], expected input[32, 4, 64, 64] to have 5 channels, but got 4 channels instead",
+    "lr": 5e-05,
+    "batch_size": 32,
+    "noise_dim": 200,
+    "rank": 10
+  },
+  {
+    "run": "run_11_lr5e-05_bs64_nd100",
+    "fid": Infinity,
+    "error": "Given groups=1, weight of size [64, 5, 4, 4], expected input[64, 4, 64, 64] to have 5 channels, but got 4 channels instead",
+    "lr": 5e-05,
+    "batch_size": 64,
+    "noise_dim": 100,
+    "rank": 11
+  },
+  {
+    "run": "run_12_lr5e-05_bs64_nd200",
+    "fid": Infinity,
+    "error": "Given groups=1, weight of size [64, 5, 4, 4], expected input[64, 4, 64, 64] to have 5 channels, but got 4 channels instead",
+    "lr": 5e-05,
+    "batch_size": 64,
+    "noise_dim": 200,
+    "rank": 12
+  }
+]

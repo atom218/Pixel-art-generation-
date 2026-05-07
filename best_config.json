@@ -1,0 +1,5 @@
+{
+  "lr": 0.0002,
+  "batch_size": 32,
+  "noise_dim": 100
+}
