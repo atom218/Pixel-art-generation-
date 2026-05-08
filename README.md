@@ -7,6 +7,7 @@
 PixelForge is a Conditional WGAN-GP trained from scratch in PyTorch to generate 64×64 pixel art character sprites conditioned on view angle (front, back, left, right). Using the TinyHero dataset (3,648 sprites, Kaggle), the model learns novel, class-conditioned sprite generation and supports smooth latent-space rotation between viewing angles via a Gradio GUI.
 
 ## 2. Installation & Run
+The **final notebook** and all final submission files are there in the **'final submission'** folder. All intermediate files I made during the process are there in the 'process files' and 'docs/images' only contain images to render the README and can be ignored completely.
 
 ```bash
 git clone https://github.com/atom218/Pixel-art-generation-.git
@@ -22,7 +23,7 @@ python "process files/hyperparameter_tuning.py"  # 12-config sweep
 python "process files/GUI2.py"                   # launch Gradio explorer
 ```
 
-The end-to-end pipeline (training + inference + GUI) is also runnable as a single notebook: `final submission/final submission notebook.ipynb`. You just need to change the path to the dataset inputs and outputs which are currently configured to my google drive. 
+**The end-to-end pipeline (training + inference + GUI) is also runnable as a single notebook: `final submission/final submission notebook.ipynb`. You just need to change the path to the dataset inputs and outputs which are currently configured to my google drive.** 
 
 ## 3. Model Architecture
 
