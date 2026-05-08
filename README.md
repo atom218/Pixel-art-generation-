@@ -22,7 +22,7 @@ python "process files/hyperparameter_tuning.py"  # 12-config sweep
 python "process files/GUI2.py"                   # launch Gradio explorer
 ```
 
-The end-to-end pipeline (training + inference + GUI) is also runnable as a single notebook: `final submission/final submission notebook.ipynb`.
+The end-to-end pipeline (training + inference + GUI) is also runnable as a single notebook: `final submission/final submission notebook.ipynb`. You just need to change the path to the dataset inputs and outputs which are currently configured to my google drive. 
 
 ## 3. Model Architecture
 
@@ -46,7 +46,7 @@ Training curves — critic loss stabilises near zero while Wasserstein distance 
 
 ![Training losses and Wasserstein distance](docs/images/image1.png)
 
-## 5. Extra Criteria Pursued
+## 5. Extra Criteria 
 
 **(a) Gradio GUI — Character Angle Explorer.** Users enter a character number (0–900) — mapped deterministically to a noise seed — and all four view angles are generated as thumbnails. A rotation slider (0–300, three 100-step segments) SLERP-interpolates conditioning vectors between adjacent angles (front→left→back→right), producing smooth angular transitions while keeping character identity fixed. Sprites are upscaled 4–5× with nearest-neighbour for crisp pixel art. Runs in Colab via `demo.launch(share=True)`.
 
